@@ -1,0 +1,27 @@
+.fixed-heading {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #104145;
+  z-index: 9999;
+}
+
+.fixed-heading div {
+  display: flex;
+}
+
+.fixed-heading p {
+  color: white;
+  font-size: 20px;
+}
+
+.fixed-heading div p {
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+}

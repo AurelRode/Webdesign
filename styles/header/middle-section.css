@@ -1,0 +1,9 @@
+.middle-section {
+  flex: 1;
+  justify-content: center;
+}
+
+.logo {
+  color: white;
+  font-size: 35px;
+}

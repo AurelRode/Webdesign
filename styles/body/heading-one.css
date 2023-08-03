@@ -1,0 +1,17 @@
+.heading-one {
+  width: 600px;
+  border-radius: 0 50% 50% 0;
+  border-left-style: solid;
+  border-left-width: 20px;
+  border-color: white;
+  padding-left: 20px;
+
+  position: relative;
+  top: 150px;
+  left: 100px;
+}
+
+.heading-one span {
+  color: white;
+  font-size: 100px;
+}

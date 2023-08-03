@@ -1,0 +1,56 @@
+.right-section {
+  flex: 1;
+  justify-content: end;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.right-section div {
+  transition: 
+  background-color 0.33s,
+  color 0.33s,
+  height 0.33s,
+  width 0.33s,
+  border-radius 0.33s;
+}
+
+.right-section button {
+  background-color: #17585e;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  width: 60px;
+  height: 40px;
+  margin-top: 0;
+
+  transition: 
+  background-color 0.33s,
+  color 0.5s,
+  height 0.33s,
+  width 0.33s,
+  border-radius 0.33s,
+  margin 0.33s;
+}
+
+.right-section button:hover {
+  background-color: white;
+  color: black;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  border-top-right-radius: 5px;
+  margin-top: 160px;
+}
+
+.right-section span {
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+  transition: opacity 0.33s;
+}
