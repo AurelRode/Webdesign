@@ -1,0 +1,20 @@
+.screen-two {
+  height: 900px;
+  scroll-snap-align: start;
+  background-color: #7c1b40;
+  display: flex;
+  justify-content: center;
+}
+
+.heading-wrapper {
+  margin-top: 50px;
+  height: 85px;
+  border-bottom: white;
+  border-bottom-width: 10px;
+  border-bottom-style: solid;
+}
+
+.heading-wrapper span {
+  font-size: 70px;
+  color: white;
+}

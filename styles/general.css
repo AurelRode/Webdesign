@@ -1,13 +1,14 @@
 html {
   font-family: 'Roboto', sans-serif;
-  
-  height: 3000px;
+  scroll-snap-type: y proximity;
+  scroll-padding-top: 80px;
 }
 
 body {
+  margin-right: 0;
   margin-left: 0;
   margin-top: 80px;
-  background-color: #0b2e31;
+  height: 3000px;
 }
 
 ::-webkit-scrollbar {
@@ -22,4 +23,9 @@ body {
 
 ::-webkit-scrollbar-track {
   margin-top: 80px;
+}
+
+.spacer-one {
+  height: 200px;
+  background: linear-gradient(#0b2e31, #7c1b40);
 }
