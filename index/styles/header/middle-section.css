@@ -1,0 +1,15 @@
+.middle-section {
+  flex: 1;
+  justify-content: center;
+}
+
+.logo {
+  color: white;
+  font-size: 35px;
+  transition: font-size 0.33s;
+  cursor: pointer;
+}
+
+.logo:hover {
+  font-size: 45px;
+}
